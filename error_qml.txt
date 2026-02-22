@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "B:\projects\HRIDYA\hridya-heart-risk-qml\experiments\qml.py", line 1, in <module>
+    import pennylane as qml
+  File "B:\projects\HRIDYA\hridya-heart-risk-qml\venv\lib\site-packages\pennylane\__init__.py", line 23, in <module>
+    import pennylane.numpy
+  File "B:\projects\HRIDYA\hridya-heart-risk-qml\venv\lib\site-packages\pennylane\numpy\__init__.py", line 87, in <module>
+    from .wrapper import extract_tensors, tensor_wrapper, wrap_arrays
+  File "B:\projects\HRIDYA\hridya-heart-risk-qml\venv\lib\site-packages\pennylane\numpy\wrapper.py", line 23, in <module>
+    from .tensor import tensor
+  File "B:\projects\HRIDYA\hridya-heart-risk-qml\venv\lib\site-packages\pennylane\numpy\tensor.py", line 25, in <module>
+    from pennylane.operation import Operator
+  File "B:\projects\HRIDYA\hridya-heart-risk-qml\venv\lib\site-packages\pennylane\operation.py", line 261, in <module>
+    from pennylane.math import expand_matrix
+  File "B:\projects\HRIDYA\hridya-heart-risk-qml\venv\lib\site-packages\pennylane\math\__init__.py", line 115, in <module>
+    class NumpyMimic(ar.autoray.NumpyMimic):
+AttributeError: module 'autoray.autoray' has no attribute 'NumpyMimic'
