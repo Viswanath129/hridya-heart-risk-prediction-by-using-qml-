@@ -1,0 +1,5 @@
+
+venv/
+# Temporary files
+*.txt
+error_*.txt
